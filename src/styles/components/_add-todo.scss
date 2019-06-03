@@ -1,0 +1,26 @@
+.add-todo {
+    margin-top: 12px;
+    width: 100%;
+    height: auto;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.custom-input {
+    color: $black;
+    font-weight: 600;
+    font-size: 14px;
+    height: 50px;
+    border: 0;
+    border-radius: 0;
+    background-color: $white;
+    outline: none !important;
+
+    &:focus {
+        border-radius: 0;
+        box-shadow: none !important;
+        outline: none !important;
+    }
+}

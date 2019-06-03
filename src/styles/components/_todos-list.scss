@@ -1,0 +1,23 @@
+.heading {
+    display: inline-block;
+    width: 100%;
+}
+
+.headline {
+    color: $heath;
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.button-line {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    text-align: right;
+}
+
+.list-of-todos {
+    border-top: 1px solid $heath;
+}
